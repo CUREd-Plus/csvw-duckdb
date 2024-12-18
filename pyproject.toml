@@ -1,0 +1,3 @@
+[project]
+name = "csvw-duckdb"
+version = "0.0.0"
