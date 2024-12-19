@@ -2,7 +2,8 @@
 name = "csvw-duckdb"
 version = "0.0.0"
 dependencies = [
-    "csvw==3.*"
+    "csvw==3.*",
+    "duckdb==1.*"
 ]
 
 [build-system]
