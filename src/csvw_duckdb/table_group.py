@@ -17,4 +17,4 @@ class TableGroup:
 
     def iter_sql(self):
         for table in self.database.tables:
-            yield table.sql(translate=self.database.translate)
+            yield table.sql(translate=self.database.translate) + ';'
