@@ -2,7 +2,7 @@
 name = "csvw-duckdb"
 description = "Convert CSVW metadata to DuckDB SQL syntax."
 readme = "README.md"
-version = "0.0.0"
+version = "0.0.1"
 dependencies = [
     "csvw==3.*",
     "duckdb==1.*"
