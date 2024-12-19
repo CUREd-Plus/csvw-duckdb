@@ -1,0 +1,674 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "dc:conformsTo": "data-package",
+  "dc:replaces": "{\"resources\": [{\"name\": \"artificial_hes_ae_0708\", \"type\": \"table\", \"path\": \"C:\\\\Users\\\\cs1jsth\\\\Downloads\\\\artificial_hes_ae_202302_v1_sample\\\\artificial_hes_ae_202302_v1_sample\\\\artificial_hes_ae_0708.csv\", \"scheme\": \"file\", \"format\": \"csv\", \"mediatype\": \"text/csv\", \"encoding\": \"utf-8\", \"schema\": {\"fields\": [{\"name\": \"FYEAR\", \"type\": \"integer\"}, {\"name\": \"PARTYEAR\", \"type\": \"integer\"}, {\"name\": \"PSEUDO_HESID\", \"type\": \"string\"}, {\"name\": \"AEKEY\", \"type\": \"integer\"}, {\"name\": \"AEKEY_FLAG\", \"type\": \"integer\"}, {\"name\": \"AEARRIVALMODE\", \"type\": \"integer\"}, {\"name\": \"AEATTEND_EXC_PLANNED\", \"type\": \"integer\"}, {\"name\": \"AEATTENDCAT\", \"type\": \"integer\"}, {\"name\": \"AEATTENDDISP\", \"type\": \"integer\"}, {\"name\": \"AEDEPTTYPE\", \"type\": \"integer\"}, {\"name\": \"AEINCLOCTYPE\", \"type\": \"integer\"}, {\"name\": \"AEPATGROUP\", \"type\": \"integer\"}, {\"name\": \"AEREFSOURCE\", \"type\": \"integer\"}, {\"name\": \"AT_GP_PRACTICE\", \"type\": \"any\"}, {\"name\": \"AT_RESIDENCE\", \"type\": \"any\"}, {\"name\": \"AT_TREATMENT\", \"type\": \"any\"}, {\"name\": \"ARRIVALAGE\", \"type\": \"number\"}, {\"name\": \"ARRIVALAGE_CALC\", \"type\": \"number\"}, {\"name\": \"ARRIVALDATE\", \"type\": \"date\"}, {\"name\": \"ARRIVALTIME\", \"type\": \"integer\"}, {\"name\": \"CANNET\", \"type\": \"string\"}, {\"name\": \"CANREG\", \"type\": \"string\"}, {\"name\": \"CCG_GP_PRACTICE\", \"type\": \"any\"}, {\"name\": \"CCG_RESIDENCE\", \"type\": \"any\"}, {\"name\": \"CCG_RESPONSIBILITY\", \"type\": \"any\"}, {\"name\": \"CCG_RESPONSIBILITY_ORIGIN\", \"type\": \"any\"}, {\"name\": \"CCG_TREATMENT\", \"type\": \"any\"}, {\"name\": \"CCG_TREATMENT_ORIGIN\", \"type\": \"any\"}, {\"name\": \"CR_GP_PRACTICE\", \"type\": \"any\"}, {\"name\": \"CR_RESIDENCE\", \"type\": \"any\"}, {\"name\": \"CR_TREATMENT\", \"type\": \"any\"}, {\"name\": \"CONCLDUR\", \"type\": \"integer\"}, {\"name\": \"CONCLTIME\", \"type\": \"integer\"}, {\"name\": \"DEPDUR\", \"type\": \"integer\"}, {\"name\": \"DEPTIME\", \"type\": \"integer\"}, {\"name\": \"DIAG2_01\", \"type\": \"integer\"}, {\"name\": \"DIAG2_02\", \"type\": \"integer\"}, {\"name\": \"DIAG2_03\", \"type\": \"any\"}, {\"name\": \"DIAG2_04\", \"type\": \"any\"}, {\"name\": \"DIAG2_05\", \"type\": \"any\"}, {\"name\": \"DIAG2_06\", \"type\": \"any\"}, {\"name\": \"DIAG2_07\", \"type\": \"any\"}, {\"name\": \"DIAG2_08\", \"type\": \"any\"}, {\"name\": \"DIAG2_09\", \"type\": \"any\"}, {\"name\": \"DIAG2_10\", \"type\": \"any\"}, {\"name\": \"DIAG2_11\", \"type\": \"any\"}, {\"name\": \"DIAG2_12\", \"type\": \"any\"}, {\"name\": \"DIAG3_01\", \"type\": \"integer\"}, {\"name\": \"DIAG3_02\", \"type\": \"integer\"}, {\"name\": \"DIAG3_03\", \"type\": \"any\"}, {\"name\": \"DIAG3_04\", \"type\": \"any\"}, {\"name\": \"DIAG3_05\", \"type\": \"any\"}, {\"name\": \"DIAG3_06\", \"type\": \"any\"}, {\"name\": \"DIAG3_07\", \"type\": \"any\"}, {\"name\": \"DIAG3_08\", \"type\": \"any\"}, {\"name\": \"DIAG3_09\", \"type\": \"any\"}, {\"name\": \"DIAG3_10\", \"type\": \"any\"}, {\"name\": \"DIAG3_11\", \"type\": \"any\"}, {\"name\": \"DIAG3_12\", \"type\": \"any\"}, {\"name\": \"DIAGA_01\", \"type\": \"string\"}, {\"name\": \"DIAGA_02\", \"type\": \"integer\"}, {\"name\": \"DIAGA_03\", \"type\": \"any\"}, {\"name\": \"DIAGA_04\", \"type\": \"any\"}, {\"name\": \"DIAGA_05\", \"type\": \"any\"}, {\"name\": \"DIAGA_06\", \"type\": \"any\"}, {\"name\": \"DIAGA_07\", \"type\": \"any\"}, {\"name\": \"DIAGA_08\", \"type\": \"any\"}, {\"name\": \"DIAGA_09\", \"type\": \"any\"}, {\"name\": \"DIAGA_10\", \"type\": \"any\"}, {\"name\": \"DIAGA_11\", \"type\": \"any\"}, {\"name\": \"DIAGA_12\", \"type\": \"any\"}, {\"name\": \"DIAGS_01\", \"type\": \"string\"}, {\"name\": \"DIAGS_02\", \"type\": \"string\"}, {\"name\": \"DIAGS_03\", \"type\": \"any\"}, {\"name\": \"DIAGS_04\", \"type\": \"any\"}, {\"name\": \"DIAGS_05\", \"type\": \"any\"}, {\"name\": \"DIAGS_06\", \"type\": \"any\"}, {\"name\": \"DIAGS_07\", \"type\": \"any\"}, {\"name\": \"DIAGS_08\", \"type\": \"any\"}, {\"name\": \"DIAGS_09\", \"type\": \"any\"}, {\"name\": \"DIAGS_10\", \"type\": \"any\"}, {\"name\": \"DIAGS_11\", \"type\": \"any\"}, {\"name\": \"DIAGS_12\", \"type\": \"any\"}, {\"name\": \"DIAGSCHEME\", \"type\": \"integer\"}, {\"name\": \"ETHNOS\", \"type\": \"string\"}, {\"name\": \"EPIKEY\", \"type\": \"integer\"}, {\"name\": \"GORTREAT\", \"type\": \"string\"}, {\"name\": \"GPPRAC\", \"type\": \"string\"}, {\"name\": \"INITDUR\", \"type\": \"integer\"}, {\"name\": \"INITTIME\", \"type\": \"integer\"}, {\"name\": \"INVEST2_01\", \"type\": \"string\"}, {\"name\": \"INVEST2_02\", \"type\": \"integer\"}, {\"name\": \"INVEST2_03\", \"type\": \"any\"}, {\"name\": \"INVEST2_04\", \"type\": \"any\"}, {\"name\": \"INVEST2_05\", \"type\": \"any\"}, {\"name\": \"INVEST2_06\", \"type\": \"any\"}, {\"name\": \"INVEST2_07\", \"type\": \"any\"}, {\"name\": \"INVEST2_08\", \"type\": \"any\"}, {\"name\": \"INVEST2_09\", \"type\": \"any\"}, {\"name\": \"INVEST2_10\", \"type\": \"any\"}, {\"name\": \"INVEST2_11\", \"type\": \"any\"}, {\"name\": \"INVEST2_12\", \"type\": \"any\"}, {\"name\": \"INVESTSCHEME\", \"type\": \"integer\"}, {\"name\": \"PCON\", \"type\": \"string\"}, {\"name\": \"PCON_ONS\", \"type\": \"any\"}, {\"name\": \"PCTCODE_HIS\", \"type\": \"string\"}, {\"name\": \"PCTORIG_HIS\", \"type\": \"integer\"}, {\"name\": \"PCTTREAT\", \"type\": \"string\"}, {\"name\": \"PROCODE3\", \"type\": \"string\"}, {\"name\": \"PROCODE5\", \"type\": \"string\"}, {\"name\": \"PROCODET\", \"type\": \"string\"}, {\"name\": \"PROCSCHEME\", \"type\": \"number\"}, {\"name\": \"PURCODE\", \"type\": \"string\"}, {\"name\": \"RANK_ORDER\", \"type\": \"any\"}, {\"name\": \"RESCTY\", \"type\": \"string\"}, {\"name\": \"RESCTY_ONS\", \"type\": \"any\"}, {\"name\": \"RESGOR\", \"type\": \"string\"}, {\"name\": \"RESGOR_ONS\", \"type\": \"any\"}, {\"name\": \"RESLADST\", \"type\": \"string\"}, {\"name\": \"RESLADST_ONS\", \"type\": \"any\"}, {\"name\": \"RESPCT_HIS\", \"type\": \"string\"}, {\"name\": \"RESSTHA_HIS\", \"type\": \"string\"}, {\"name\": \"SEX\", \"type\": \"integer\"}, {\"name\": \"LSOA01\", \"type\": \"string\"}, {\"name\": \"MSOA01\", \"type\": \"string\"}, {\"name\": \"STHATRET\", \"type\": \"string\"}, {\"name\": \"SUSHRG\", \"type\": \"any\"}, {\"name\": \"SUSLDDATE_HIS\", \"type\": \"datetime\"}, {\"name\": \"TREAT2_01\", \"type\": \"integer\"}, {\"name\": \"TREAT2_02\", \"type\": \"integer\"}, {\"name\": \"TREAT2_03\", \"type\": \"any\"}, {\"name\": \"TREAT2_04\", \"type\": \"any\"}, {\"name\": \"TREAT2_05\", \"type\": \"any\"}, {\"name\": \"TREAT2_06\", \"type\": \"any\"}, {\"name\": \"TREAT2_07\", \"type\": \"any\"}, {\"name\": \"TREAT2_08\", \"type\": \"any\"}, {\"name\": \"TREAT2_09\", \"type\": \"any\"}, {\"name\": \"TREAT2_10\", \"type\": \"any\"}, {\"name\": \"TREAT2_11\", \"type\": \"any\"}, {\"name\": \"TREAT2_12\", \"type\": \"any\"}, {\"name\": \"TREAT3_01\", \"type\": \"integer\"}, {\"name\": \"TREAT3_02\", \"type\": \"integer\"}, {\"name\": \"TREAT3_03\", \"type\": \"any\"}, {\"name\": \"TREAT3_04\", \"type\": \"any\"}, {\"name\": \"TREAT3_05\", \"type\": \"any\"}, {\"name\": \"TREAT3_06\", \"type\": \"any\"}, {\"name\": \"TREAT3_07\", \"type\": \"any\"}, {\"name\": \"TREAT3_08\", \"type\": \"any\"}, {\"name\": \"TREAT3_09\", \"type\": \"any\"}, {\"name\": \"TREAT3_10\", \"type\": \"any\"}, {\"name\": \"TREAT3_11\", \"type\": \"any\"}, {\"name\": \"TREAT3_12\", \"type\": \"any\"}, {\"name\": \"TREATSCHEME\", \"type\": \"integer\"}, {\"name\": \"TRETDUR\", \"type\": \"integer\"}, {\"name\": \"TRETTIME\", \"type\": \"integer\"}, {\"name\": \"LSOA11\", \"type\": \"string\"}, {\"name\": \"MSOA11\", \"type\": \"string\"}, {\"name\": \"PROVDIST\", \"type\": \"number\"}, {\"name\": \"PROVDIST_FLAG\", \"type\": \"integer\"}, {\"name\": \"NER_GP_PRACTICE\", \"type\": \"any\"}, {\"name\": \"NER_RESIDENCE\", \"type\": \"any\"}, {\"name\": \"NER_TREATMENT\", \"type\": \"any\"}, {\"name\": \"SITETRET\", \"type\": \"any\"}, {\"name\": \"SITEDIST\", \"type\": \"any\"}, {\"name\": \"SITEDIST_FLAG\", \"type\": \"any\"}]}}], \"profile\": \"data-package\"}",
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "datatype": "integer",
+            "name": "FYEAR"
+          },
+          {
+            "datatype": "integer",
+            "name": "PARTYEAR"
+          },
+          {
+            "datatype": "string",
+            "name": "PSEUDO_HESID"
+          },
+          {
+            "datatype": "integer",
+            "name": "AEKEY"
+          },
+          {
+            "datatype": "integer",
+            "name": "AEKEY_FLAG"
+          },
+          {
+            "datatype": "integer",
+            "name": "AEARRIVALMODE"
+          },
+          {
+            "datatype": "integer",
+            "name": "AEATTEND_EXC_PLANNED"
+          },
+          {
+            "datatype": "integer",
+            "name": "AEATTENDCAT"
+          },
+          {
+            "datatype": "integer",
+            "name": "AEATTENDDISP"
+          },
+          {
+            "datatype": "integer",
+            "name": "AEDEPTTYPE"
+          },
+          {
+            "datatype": "integer",
+            "name": "AEINCLOCTYPE"
+          },
+          {
+            "datatype": "integer",
+            "name": "AEPATGROUP"
+          },
+          {
+            "datatype": "integer",
+            "name": "AEREFSOURCE"
+          },
+          {
+            "datatype": "string",
+            "name": "AT_GP_PRACTICE"
+          },
+          {
+            "datatype": "string",
+            "name": "AT_RESIDENCE"
+          },
+          {
+            "datatype": "string",
+            "name": "AT_TREATMENT"
+          },
+          {
+            "datatype": "number",
+            "name": "ARRIVALAGE"
+          },
+          {
+            "datatype": "number",
+            "name": "ARRIVALAGE_CALC"
+          },
+          {
+            "datatype": "date",
+            "name": "ARRIVALDATE"
+          },
+          {
+            "datatype": "integer",
+            "name": "ARRIVALTIME"
+          },
+          {
+            "datatype": "string",
+            "name": "CANNET"
+          },
+          {
+            "datatype": "string",
+            "name": "CANREG"
+          },
+          {
+            "datatype": "string",
+            "name": "CCG_GP_PRACTICE"
+          },
+          {
+            "datatype": "string",
+            "name": "CCG_RESIDENCE"
+          },
+          {
+            "datatype": "string",
+            "name": "CCG_RESPONSIBILITY"
+          },
+          {
+            "datatype": "string",
+            "name": "CCG_RESPONSIBILITY_ORIGIN"
+          },
+          {
+            "datatype": "string",
+            "name": "CCG_TREATMENT"
+          },
+          {
+            "datatype": "string",
+            "name": "CCG_TREATMENT_ORIGIN"
+          },
+          {
+            "datatype": "string",
+            "name": "CR_GP_PRACTICE"
+          },
+          {
+            "datatype": "string",
+            "name": "CR_RESIDENCE"
+          },
+          {
+            "datatype": "string",
+            "name": "CR_TREATMENT"
+          },
+          {
+            "datatype": "integer",
+            "name": "CONCLDUR"
+          },
+          {
+            "datatype": "integer",
+            "name": "CONCLTIME"
+          },
+          {
+            "datatype": "integer",
+            "name": "DEPDUR"
+          },
+          {
+            "datatype": "integer",
+            "name": "DEPTIME"
+          },
+          {
+            "datatype": "integer",
+            "name": "DIAG2_01"
+          },
+          {
+            "datatype": "integer",
+            "name": "DIAG2_02"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG2_03"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG2_04"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG2_05"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG2_06"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG2_07"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG2_08"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG2_09"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG2_10"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG2_11"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG2_12"
+          },
+          {
+            "datatype": "integer",
+            "name": "DIAG3_01"
+          },
+          {
+            "datatype": "integer",
+            "name": "DIAG3_02"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG3_03"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG3_04"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG3_05"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG3_06"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG3_07"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG3_08"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG3_09"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG3_10"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG3_11"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAG3_12"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGA_01"
+          },
+          {
+            "datatype": "integer",
+            "name": "DIAGA_02"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGA_03"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGA_04"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGA_05"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGA_06"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGA_07"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGA_08"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGA_09"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGA_10"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGA_11"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGA_12"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGS_01"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGS_02"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGS_03"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGS_04"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGS_05"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGS_06"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGS_07"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGS_08"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGS_09"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGS_10"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGS_11"
+          },
+          {
+            "datatype": "string",
+            "name": "DIAGS_12"
+          },
+          {
+            "datatype": "integer",
+            "name": "DIAGSCHEME"
+          },
+          {
+            "datatype": "string",
+            "name": "ETHNOS"
+          },
+          {
+            "datatype": "integer",
+            "name": "EPIKEY"
+          },
+          {
+            "datatype": "string",
+            "name": "GORTREAT"
+          },
+          {
+            "datatype": "string",
+            "name": "GPPRAC"
+          },
+          {
+            "datatype": "integer",
+            "name": "INITDUR"
+          },
+          {
+            "datatype": "integer",
+            "name": "INITTIME"
+          },
+          {
+            "datatype": "string",
+            "name": "INVEST2_01"
+          },
+          {
+            "datatype": "integer",
+            "name": "INVEST2_02"
+          },
+          {
+            "datatype": "string",
+            "name": "INVEST2_03"
+          },
+          {
+            "datatype": "string",
+            "name": "INVEST2_04"
+          },
+          {
+            "datatype": "string",
+            "name": "INVEST2_05"
+          },
+          {
+            "datatype": "string",
+            "name": "INVEST2_06"
+          },
+          {
+            "datatype": "string",
+            "name": "INVEST2_07"
+          },
+          {
+            "datatype": "string",
+            "name": "INVEST2_08"
+          },
+          {
+            "datatype": "string",
+            "name": "INVEST2_09"
+          },
+          {
+            "datatype": "string",
+            "name": "INVEST2_10"
+          },
+          {
+            "datatype": "string",
+            "name": "INVEST2_11"
+          },
+          {
+            "datatype": "string",
+            "name": "INVEST2_12"
+          },
+          {
+            "datatype": "integer",
+            "name": "INVESTSCHEME"
+          },
+          {
+            "datatype": "string",
+            "name": "PCON"
+          },
+          {
+            "datatype": "string",
+            "name": "PCON_ONS"
+          },
+          {
+            "datatype": "string",
+            "name": "PCTCODE_HIS"
+          },
+          {
+            "datatype": "integer",
+            "name": "PCTORIG_HIS"
+          },
+          {
+            "datatype": "string",
+            "name": "PCTTREAT"
+          },
+          {
+            "datatype": "string",
+            "name": "PROCODE3"
+          },
+          {
+            "datatype": "string",
+            "name": "PROCODE5"
+          },
+          {
+            "datatype": "string",
+            "name": "PROCODET"
+          },
+          {
+            "datatype": "number",
+            "name": "PROCSCHEME"
+          },
+          {
+            "datatype": "string",
+            "name": "PURCODE"
+          },
+          {
+            "datatype": "string",
+            "name": "RANK_ORDER"
+          },
+          {
+            "datatype": "string",
+            "name": "RESCTY"
+          },
+          {
+            "datatype": "string",
+            "name": "RESCTY_ONS"
+          },
+          {
+            "datatype": "string",
+            "name": "RESGOR"
+          },
+          {
+            "datatype": "string",
+            "name": "RESGOR_ONS"
+          },
+          {
+            "datatype": "string",
+            "name": "RESLADST"
+          },
+          {
+            "datatype": "string",
+            "name": "RESLADST_ONS"
+          },
+          {
+            "datatype": "string",
+            "name": "RESPCT_HIS"
+          },
+          {
+            "datatype": "string",
+            "name": "RESSTHA_HIS"
+          },
+          {
+            "datatype": "integer",
+            "name": "SEX"
+          },
+          {
+            "datatype": "string",
+            "name": "LSOA01"
+          },
+          {
+            "datatype": "string",
+            "name": "MSOA01"
+          },
+          {
+            "datatype": "string",
+            "name": "STHATRET"
+          },
+          {
+            "datatype": "string",
+            "name": "SUSHRG"
+          },
+          {
+            "datatype": "datetime",
+            "name": "SUSLDDATE_HIS"
+          },
+          {
+            "datatype": "integer",
+            "name": "TREAT2_01"
+          },
+          {
+            "datatype": "integer",
+            "name": "TREAT2_02"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT2_03"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT2_04"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT2_05"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT2_06"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT2_07"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT2_08"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT2_09"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT2_10"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT2_11"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT2_12"
+          },
+          {
+            "datatype": "integer",
+            "name": "TREAT3_01"
+          },
+          {
+            "datatype": "integer",
+            "name": "TREAT3_02"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT3_03"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT3_04"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT3_05"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT3_06"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT3_07"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT3_08"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT3_09"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT3_10"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT3_11"
+          },
+          {
+            "datatype": "string",
+            "name": "TREAT3_12"
+          },
+          {
+            "datatype": "integer",
+            "name": "TREATSCHEME"
+          },
+          {
+            "datatype": "integer",
+            "name": "TRETDUR"
+          },
+          {
+            "datatype": "integer",
+            "name": "TRETTIME"
+          },
+          {
+            "datatype": "string",
+            "name": "LSOA11"
+          },
+          {
+            "datatype": "string",
+            "name": "MSOA11"
+          },
+          {
+            "datatype": "number",
+            "name": "PROVDIST"
+          },
+          {
+            "datatype": "integer",
+            "name": "PROVDIST_FLAG"
+          },
+          {
+            "datatype": "string",
+            "name": "NER_GP_PRACTICE"
+          },
+          {
+            "datatype": "string",
+            "name": "NER_RESIDENCE"
+          },
+          {
+            "datatype": "string",
+            "name": "NER_TREATMENT"
+          },
+          {
+            "datatype": "string",
+            "name": "SITETRET"
+          },
+          {
+            "datatype": "string",
+            "name": "SITEDIST"
+          },
+          {
+            "datatype": "string",
+            "name": "SITEDIST_FLAG"
+          }
+        ]
+      },
+      "url": "artificial_hes_ae_202302_v1_sample/artificial_hes_ae_0708.csv"
+    }
+  ]
+}
