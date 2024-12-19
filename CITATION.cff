@@ -1,6 +1,9 @@
+cff-version: 1.2.0
+title: csvw-duckdb
+type: software
 authors:
-  - affiliation: "University of Sheffield"
-    family-names: "Heffer"
-    given-names: "Joe Salvador Thornhill"
-    orcid: "https://orcid.org/0000-0001-8733-1117"
-cff-version: "1.2.0"
+  - given-names: Joe Salvador Thornhill
+    family-names: Heffer
+    email: j.heffer@sheffield.ac.uk
+    affiliation: University of Sheffield
+    orcid: 'https://orcid.org/0000-0001-8733-1117'
